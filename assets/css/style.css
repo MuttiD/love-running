@@ -34,8 +34,25 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
+#menu, #logo {
+    line-height: 75px; /* 75px for comfortbly acommodates the logo and the menu, this is a choice, once wi'll have multiples of 75px througout the lay-out */
+}
+
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit; /* from the body color #252525 above */
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a; /* states or highlights where the user is in the browser */
 }
