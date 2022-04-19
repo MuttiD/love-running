@@ -196,5 +196,21 @@ hr {
     background-size: cover;
     background-position: center;
     width: 100%;
-    overflow: hidden;
+    overflow: hidden; /* hide any potencial image overflow */
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);  /* opacity to .6 */
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box; /* include the border width inside the total size of the element */    
+}
+
+#times h2 {
+    color: #fafafa;
 }
