@@ -247,3 +247,38 @@ footer {
     width: 100%;
     
 }
+
+/* media queries - only required when some criteria are met. eg. below 1200px width*/
+
+/* for larger to medium screens size from 1200px wide and down . 
+we want here the image in the center goes below he club ethos*/
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%; /* setting for tablets and mobiles screens */
+        height: 1200px;  /*maintaining thr structure's ratios */
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+
+}
